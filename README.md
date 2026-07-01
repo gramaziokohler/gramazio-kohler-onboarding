@@ -26,15 +26,7 @@ You will use slightly different usernames depending on the service. This is the 
 | Google Workspace / Microsoft 365 | `<username>@ethz.ch` | Global password |
 | **Wi-Fi (Eduroam)** | role-dependent login (see [Wi-Fi](#2-wi-fi-eduroam)) | **Network password** |
 
-## 1. Email (Outlook)
-
-**Outlook** is the recommended email client, it keeps you aligned with the rest of the team. You can use another client if you prefer, but Outlook is the smoothest path.
-
-1. Go to <https://outlook.office.com/mail/>.
-2. Enter your `@ethz.ch` email.
-3. You'll be redirected to the ETH login page — sign in with your **global password**.
-
-## 2. Wi-Fi (Eduroam)
+## 1. Wi-Fi (Eduroam)
 
 Wi-Fi is available in all ETH buildings (provided by ITS) and always requires authentication. The catch: your Wi-Fi username follows a **different format** that depends on your relation to ETH — not your plain `@ethz.ch` address. Take your ETH user name and add the role-specific segment before `ethz.ch`:
 
@@ -47,6 +39,14 @@ Wi-Fi is available in all ETH buildings (provided by ITS) and always requires au
 - **Password:** your **network password** (a.k.a. Radius / WIFI / VPN password) — **not** your global password. You can set it at <https://password.ethz.ch>.
 
 More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
+
+## 2. Email (Outlook)
+
+**Outlook** is the recommended email client, it keeps you aligned with the rest of the team. You can use another client if you prefer, but Outlook is the smoothest path.
+
+1. Go to <https://outlook.office.com/mail/>.
+2. Enter your `@ethz.ch` email.
+3. You'll be redirected to the ETH login page — sign in with your **global password**.
 
 ## 3. NAS (storage + website CMS)
 
