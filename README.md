@@ -95,11 +95,12 @@ Request your licenses through ETH's **Unlimited** self-service portal: <https://
 
 1. Follow **"Requesting an M365 License"**: <https://unlimited.ethz.ch/en/help/m365/getting-started/m365-first-steps>
 2. Approval takes about **5 minutes**.
+3. Once approved, you can log in to **Teams** with your `@ethz.ch` email and **global password**.
 
 ## Quick checklist
 
-- [ ] Log in to Outlook (`@ethz.ch` + global password)
 - [ ] Connect to Eduroam (role login, e.g. `@student-net.ethz.ch` + network password)
+- [ ] Log in to Outlook (`@ethz.ch` + global password)
 - [ ] Access and map the NAS
 - [ ] Accept the Slack invite (`@arch.ethz.ch`)
 - [ ] Accept the GitHub invite (`@arch.ethz.ch`)
