@@ -28,7 +28,7 @@ You will use slightly different usernames depending on the service. This is the 
 
 ## 1. Wi-Fi (Eduroam)
 
-Wi-Fi is available in all ETH buildings (provided by ITS) and always requires authentication. The catch: your Wi-Fi username follows a **different format** that depends on your relation to ETH — not your plain `@ethz.ch` address. Take your ETH user name and add the role-specific segment before `ethz.ch`:
+The catch: your Wi-Fi username follows a **different format** that depends on your relation to ETH — not your plain `@ethz.ch` address. Take your ETH user name and add the role-specific segment before `ethz.ch`:
 
 | Your role | Wi-Fi username |
 | --- | --- |
