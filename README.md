@@ -40,7 +40,7 @@ Two things trip people up here: your username isn't your plain email, and your p
 | Student — incl. **PhD students** | `<username>@student-net.ethz.ch` |
 | Visitor | `<username>@eth-visitors.ethz.ch` |
 
-**Password** &nbsp;·&nbsp; your **network password** (a.k.a. Radius / Wi-Fi / VPN password) — *not* your global password. Set or reset it at <https://password.ethz.ch>.
+**Password** &nbsp;·&nbsp; your **network password** (Radius / Wi-Fi / VPN password). Set or reset it at <https://password.ethz.ch>.
 
 More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
@@ -50,7 +50,7 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
 1. Go to <https://outlook.office.com/mail/>.
 2. Enter your `@ethz.ch` email.
-3. You'll be redirected to the ETH login page — sign in with your **global password**.
+3. Sign in with your **global password**.
 
 ## 3. NAS (storage + website CMS)
 
