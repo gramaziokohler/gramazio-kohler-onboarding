@@ -80,6 +80,8 @@ Once you're connected via Eduroam, you can reach the group NAS:
   <figcaption><em>a. At <strong>This PC</strong>, click the three dots (…) and select <strong>Map network drive</strong>.</em></figcaption>
 </figure>
 
+<br />
+
 <figure>
   <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="500" />
   <figcaption><em>b. Fill in the dialog:</em>
@@ -91,6 +93,8 @@ Once you're connected via Eduroam, you can reach the group NAS:
     </ul>
   </figcaption>
 </figure>
+
+<br />
 
 <figure>
   <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="500" />
