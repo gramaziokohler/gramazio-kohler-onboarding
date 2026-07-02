@@ -161,14 +161,17 @@ Request the Google Workspace and Microsoft 365 licenses through ETH's **Unlimite
 2. Approval takes about **5 minutes**.
 3. Once approved, you can log in to **Teams** with your `@ethz.ch` email and **global password**.
 
+### Rhino
+
+The group's main CAD environment. It needs a license.
+
+> _TODO: document where the license is requested._
+
 ### Other tools
 
 - **Zoom** — log in with your `@ethz.ch` email; it redirects to the ETH login page, where you enter your global email and global password.
-- **Rhino** — the group's main CAD environment (needs a license).
 - **Zotero** — reference manager.
 - **ORCiD** — persistent researcher identifier; worth registering if you'll publish.
-
-> _TODO: document where the Rhino license is requested._
 
 ## 8. VPN
 
@@ -261,7 +264,8 @@ First contacts by topic.
 - [ ] Accept the GitHub invite (`@arch.ethz.ch`) and join the project repos
 - [ ] Request Google Workspace license + get added to shared drives
 - [ ] Request Microsoft 365 license
-- [ ] Log in to Zoom (`@ethz.ch` + global password); request the Rhino license
+- [ ] Log in to Zoom (`@ethz.ch` + global password)
+- [ ] Request the Rhino license
 - [ ] Set up the VPN
 - [ ] Get added to the ETH groups (ACLs)
 
