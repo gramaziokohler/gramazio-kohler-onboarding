@@ -161,12 +161,12 @@ Request your licenses through ETH's **Unlimited** self-service portal: <https://
 2. Approval takes about **5 minutes**.
 3. Once approved, you can log in to **Teams** with your `@ethz.ch` email and **global password**.
 
-## 8. Zoom & Rhino licenses
+## 8. Software & licenses
 
-Both need a license:
-
-- **Zoom** — for meetings with external partners.
-- **Rhino** — the group's main CAD environment.
+- **Zoom** — for meetings with external partners (needs a license).
+- **Rhino** — the group's main CAD environment (needs a license).
+- **Zotero** — reference manager.
+- **ORCiD** — persistent researcher identifier; worth registering if you'll publish.
 
 > _TODO: document where each license is requested._
 
@@ -249,11 +249,6 @@ First contacts by topic.
 | **NCCR** | Software ecosystem | Tom, Chen, Gonzalo |
 | **RFL** | Lab team | Philippe, Mike, Toby |
 | **ITA** | Coordinator, RQEs | _TODO_ |
-
-## Optional
-
-- **Zotero** — reference manager.
-- **ORCiD** — persistent researcher identifier; worth registering if you'll publish.
 
 ## Quick checklist
 
