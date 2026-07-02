@@ -28,7 +28,7 @@ You will use slightly different usernames depending on the service. A reference 
 
 ## 1. Wi-Fi (Eduroam)
 
-Two things trip people up here: your username isn't your plain email, and your password isn't your global password.
+Two things trip people up here: your username isn't any of your email addresses, and your password isn't your global password.
 
 **Network** &nbsp;·&nbsp; `eduroam`
 
@@ -69,7 +69,7 @@ Once you're connected via Eduroam, you can reach the group NAS:
 
 **On Windows:**
 
-> ⚠️ **The first connection is slow and silent** — Windows may hang for ~2 minutes.
+> ⚠️ **The first connection is slow and silent** — No feedback for ~2 minutes.
 
 1. Open **File Explorer** and enter the address above and _wait_.
 2. Click  **More choices**. Don't accept the default account. 
@@ -93,8 +93,6 @@ Once you're connected via Eduroam, you can reach the group NAS:
 </figure>
 
 3. **(Recommended)** Map it as a network drive so it stays available and reconnects at sign-in.
-
-<br />
 
 <figure>
   <img src="./map-network-drive-1.jpg" alt="This PC context menu with Map network drive highlighted" width="500" />
