@@ -21,30 +21,29 @@ Every service signs you in as `<username>@ethz.ch` with your **global password**
 
 ## 1. First day at the office
 
-- Get a **tour of the office**.
-- Learn the **food options** on campus.
+Day one is light: get a **tour of the office** and get to know the **food & coffee options** on campus (below).
 
 ### 1.1 Food & coffee on campus
 
 _Hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
 
-- **[FUSION meal & coffee](https://maps.app.goo.gl/EuoSGRFboac5KGyY7)** — free-flow restaurant (classic/veg, pasta, buffet) + adjacent coffee shop; HCI.
-- **[Food Market](https://maps.app.goo.gl/zjg8U73At9AwHuJs8)** — SV counter (pizza/pasta, grill, veg); HPR.
+- **[FUSION meal & coffee](https://maps.app.goo.gl/EuoSGRFboac5KGyY7)** — free-flow restaurant (classic/veg, pasta, buffet) + adjacent coffee shop; HCI building.
+- **[Food Market](https://maps.app.goo.gl/zjg8U73At9AwHuJs8)** — SV (campus caterer) counter (pizza/pasta, grill, veg); HPR building.
 - **[Alumni quattro Lounge](https://maps.app.goo.gl/cGtFkSMN6dCLm8Mj8)** — lounge café.
 - **[Rice UP!](https://maps.app.goo.gl/5nKEjqt3zGEhrJY9A)** — Asian rice bowls.
-- **[Mendokoro](https://maps.app.goo.gl/wgPFVYDUpktqSjxy7)** — Japanese ramen & snacks, takeaway; HXE.
+- **[Mendokoro](https://maps.app.goo.gl/wgPFVYDUpktqSjxy7)** — Japanese ramen & snacks, takeaway; HXE building.
 - **[Restaurant Bellavista](https://maps.app.goo.gl/wWmT2XTKVNs43WGVA)** — table-service restaurant, pricier option.
 - **[Coop supermarket](https://maps.app.goo.gl/7Zzzgq639gCaZWWcA)** — on campus.
-- **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** — rotating food trucks, Mon–Fri from 11:00, seasonal (Aug–Dec):
+- **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** — rotating food trucks, Mon–Fri from 11:00, seasonal (Aug–Dec). Vendors change each semester, so treat the grid below as a snapshot and check the link for the current line-up:
   - **[Stefano-Franscini-Platz](https://maps.app.goo.gl/NMJCScv9bo2ssMJC7)** — coffee & snacks
   - **[Joseph-von-Deschwanden-Platz](https://maps.app.goo.gl/iFgtBzVB6viNLat5A)** — hot meals
 
 | Day | Stefano-Franscini-Platz | Joseph-von-Deschwanden-Platz |
 | --- | --- | --- |
-| **Mon** | Bar Caffetteria Otter | Caribbean Flair (as of 17.08.) |
-| **Tue** | Petit Frère + Äss-Bar | Ada Lokma (Anatolian) + Bra-Bro-Gourmet (burgers, as of 14.09.) |
-| **Wed** | Miró Coffee + Äss-Bar (until 11.09.) | Wesley's Kitchen (Asian/momos) |
-| **Thu** | Il Macchinista + Äss-Bar (until 11.09.) | Memo Food (kebab) + FAINO (Ukrainian, as of 17.09.) |
+| **Mon** | Bar Caffetteria Otter | Caribbean Flair |
+| **Tue** | Petit Frère + Äss-Bar | Ada Lokma (Anatolian) + Bra-Bro-Gourmet (burgers) |
+| **Wed** | Miró Coffee + Äss-Bar | Wesley's Kitchen (Asian/momos) |
+| **Thu** | Il Macchinista + Äss-Bar | Memo Food (kebab) + FAINO (Ukrainian) |
 | **Fri** | Mate's Coffee + Äss-Bar | Mundo Del Gusto (burgers) |
 
 ## 2. Hardware
@@ -158,20 +157,6 @@ Once you're connected via eduroam, you can reach the GKR Server:
 
 </details>
 
-<details>
-<summary><strong>Linux</strong></summary>
-
-> _TODO: add Linux instructions._
-
-</details>
-
-<details>
-<summary><strong>macOS</strong></summary>
-
-> _TODO: add macOS instructions._
-
-</details>
-
 ### 3.4 VPN
 
 Needed to reach some internal services from outside the campus network.
@@ -211,7 +196,9 @@ Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.6 Rhino
 
-> _TODO: document where the license is requested._
+One person in the group handles Rhino licenses — ask them (or your supervisor) to get you set up.
+
+> _TODO: name the person responsible for Rhino licenses._
 
 ### 4.7 Other tools
 
@@ -338,13 +325,13 @@ First contacts by topic.
 
 | Where | Role | People |
 | --- | --- | --- |
-| **GKR** | Admin & finance | Tanja fehr@arch.ethz.ch |
-| **GKR** | Postdocs | Oliver bucklin@arch.ethz.ch, Lauren vasey@arch.ethz.ch, Petrus apetrus@arch.ethz.ch, Inés ariza@arch.ethz.ch, Anja akunic@ethz.ch |
-| **GKR** | PR & communication | Alessandra gabaglio@arch.ethz.ch |
+| **GKR** | Admin & finance | Tanja (fehr@arch.ethz.ch) |
+| **GKR** | Postdocs | Oliver (bucklin@arch.ethz.ch), Lauren (vasey@arch.ethz.ch), Petrus (apetrus@arch.ethz.ch), Inés (ariza@arch.ethz.ch), Anja (akunic@ethz.ch) |
+| **GKR** | PR & communication | Alessandra (gabaglio@arch.ethz.ch) |
 | **GKR** | Teaching team | _TODO_ |
 | **GKR** | Assistants | _TODO_ |
-| **NCCR** | Management | Russell loveridge@dfab.ch, Kaitlin mcnally@dfab.ch, Blanca hren@dfab.ch |
-| **NCCR** | Budget & expenses | Tanja fehr@arch.ethz.ch, Blanca hren@dfab.ch |
-| **NCCR** | Software ecosystem | Tom van.mele@arch.ethz.ch, Chen kasirer@arch.ethz.ch, Gonzalo casas@arch.ethz.ch |
+| **NCCR** | Management | Russell (loveridge@dfab.ch), Kaitlin (mcnally@dfab.ch), Blanca (hren@dfab.ch) |
+| **NCCR** | Budget & expenses | Tanja (fehr@arch.ethz.ch), Blanca (hren@dfab.ch) |
+| **NCCR** | Software ecosystem | Tom (van.mele@arch.ethz.ch), Chen (kasirer@arch.ethz.ch), Gonzalo (casas@arch.ethz.ch) |
 | **RFL** | Lab team | Philippe, Mike, Toby |
 | **ITA** | Coordinator, RQEs | _TODO_ |
