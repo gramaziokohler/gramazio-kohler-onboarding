@@ -23,7 +23,7 @@ Every service signs you in as `<username>@ethz.ch` with your **global password**
 
 Day one is light: get a **tour of the office** and get to know the **food & coffee options** on campus (below).
 
-### 1.1 Food & coffee on campus
+### Food & coffee on campus
 
 _Hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
 
@@ -97,7 +97,7 @@ Once you're connected via eduroam, you can reach the GKR Server:
 \\nas22.ethz.ch\arch_ita_gramazio_kohler
 ```
 
-**Detailed setup by OS:**
+**Detailed setup (Windows):**
 
 <details>
 <summary><strong>Windows</strong></summary>
