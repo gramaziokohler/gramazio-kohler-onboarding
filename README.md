@@ -99,7 +99,7 @@ Once you're connected via eduroam, you can reach the GKR Server:
 \\nas22.ethz.ch\arch_ita_gramazio_kohler
 ```
 
-**Detailed setup (Windows):**
+**Detailed setup:**
 
 <details>
 <summary><strong>Windows</strong></summary>
