@@ -4,7 +4,7 @@ A practical onboarding guide for **Gramazio Kohler Research**, ETH Zürich — a
 
 > Community-maintained — please keep it current for the next person.
 
-## Prerequisites
+## 📋 Prerequisites
 
 This guide assumes you have already received the following from ETH:
 
@@ -19,7 +19,7 @@ This guide assumes you have already received the following from ETH:
 
 Every service signs you in as `<username>@ethz.ch` with your **global password**, except **Wi-Fi (eduroam) and VPN**, which use a role-dependent login and your **network password** (see [Wi-Fi](#31-wi-fi)).
 
-## 1. First day at the office
+## 👋 1. First day at the office
 
 Day one is light: get a **tour of the office** and get to know the **food & coffee options** on campus (below).
 
@@ -48,7 +48,7 @@ Vendors rotate each semester, so the grid below is only a snapshot — check **[
 | **Thu** | Il Macchinista + Äss-Bar | Memo Food (kebab) + FAINO (Ukrainian) |
 | **Fri** | Mate's Coffee + Äss-Bar | Mundo Del Gusto (burgers) |
 
-## 2. Hardware
+## 🖥️ 2. Hardware
 
 The group provides your workstation. When yours is being arranged, confirm you get:
 
@@ -57,7 +57,7 @@ The group provides your workstation. When yours is being arranged, confirm you g
 - Keyboard — check which layout you want (**US / DE / CH**)
 - Mouse
 
-## 3. Getting connected
+## 🔌 3. Getting connected
 
 ### 3.1 Wi-Fi
 
@@ -91,7 +91,7 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
 ### 3.3 Network drives (GKR Server)
 
-The **GKR Server** is the group's **file storage** — projects, documentation, images, videos, and templates all live here. It's also the foundation of the group website, through a rigid project folder structure — see [§5](#5-the-gkr-database).
+The **GKR Server** is the group's **file storage** — projects, documentation, images, videos, and templates all live here. It's also the foundation of the group website, through a rigid project folder structure — see [§5](#-5-the-gkr-database).
 
 Once you're connected via eduroam, you can reach the GKR Server:
 
@@ -167,7 +167,7 @@ Needed to reach some internal services from outside the campus network.
 - **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#31-wi-fi) (e.g. `<username>@student-net.ethz.ch`)
 - **Password** &nbsp;·&nbsp; your **network password**
 
-## 4. Software ecosystem
+## 🧰 4. Software ecosystem
 
 Slack, GitHub and Zoom don't need a license request. Google and Microsoft licenses you have to request yourself through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
 
@@ -209,9 +209,9 @@ One person in the group handles Rhino licenses — ask them (or your supervisor)
 
 ### 4.8 Project folders
 
-Set up your **project folder(s)** on the **GKR Server** (the group's main network drive) and in the Google Drive shared project drive. On the server, keep to the fixed project template — these folders feed the group website ([§5](#5-the-gkr-database)).
+Set up your **project folder(s)** on the **GKR Server** (the group's main network drive) and in the Google Drive shared project drive. On the server, keep to the fixed project template — these folders feed the group website ([§5](#-5-the-gkr-database)).
 
-## 5. The GKR database
+## 📇 5. The GKR database
 
 The **GKR database** is the group's content system: each project's descriptions, images, publications, events, and contacts live here, and the public website (<https://gramaziokohler.arch.ethz.ch/>) is **generated from it**.
 
@@ -232,7 +232,7 @@ flowchart LR
 
 To get started, set up a **GKR database intro meeting** with Alessandra Gabaglio (gabaglio@arch.ethz.ch).
 
-## 6. Coding
+## 🐍 6. Coding
 
 The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
 
@@ -245,7 +245,7 @@ The group's computational stack is Python-centric and built around [COMPAS](http
    - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2023) (FS2023 edition — check whether a newer one exists)
 5. Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
-## 7. Mailing lists & recurring meetings
+## 📬 7. Mailing lists & recurring meetings
 
 **Mailing lists:**
 
@@ -258,14 +258,14 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 - COMPAS dev meeting (bi-weekly)
 - Weekly cross section
 
-## 8. Building access & trainings
+## 🔑 8. Building access & trainings
 
 - **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator**, who is the first contact for anything RFL-related.
   - Working with concrete? The **RFL concrete lab** has its own instruction, given by the lab leader.
 - **IDL** (Immersive Design Lab) — request access and training.
   > _TODO: not covered in the office manual — confirm who grants IDL access and how its training is scheduled._
 
-## 9. Admin & perks
+## 🎟️ 9. Admin & perks
 
 - **ETHIS** (ETH's administration portal) — where absences are recorded.
   > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
@@ -273,12 +273,12 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
   > _TODO: list which groups a new member needs and who can add them._
 
-## 10. Reading
+## 📖 10. Reading
 
 - Read the **[office manual](https://github.com/gramaziokohler/gkr_office_manual/blob/main/office_manual.md)**.
 - **New PhDs:** read the **PhD study guides** by ETH (received per email).
 
-## Quick checklist
+## ✅ Quick checklist
 
 **Arrival & hardware**
 
@@ -321,7 +321,7 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 ---
 
-## Who is who
+## 👥 Who is who
 
 First contacts by topic.
 
