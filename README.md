@@ -88,7 +88,7 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 1. Go to <https://outlook.office.com/mail/>.
 2. Enter your `@ethz.ch` email.
 3. Sign in with your **global password**.
-4. Add the shared calendar `itaevent@ethz.ch` (**Add calendar → From directory**) to see ITA events happening around the building — lectures, talks, and social events.
+4. Add the shared calendar `itaevent@ethz.ch` to see the events happening around the building.
 
 ### 3.3 Network drives (GKR Server)
 
