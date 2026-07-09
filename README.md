@@ -204,10 +204,21 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 3. Install [uv](https://docs.astral.sh/uv/), the Python environment manager used below:
 
    ```powershell
+   # Windows
    winget install astral-sh.uv
    ```
 
-> ⚠️ **Windows:** open a *new* terminal after installing — already-open ones won't see `uv`. (And if typing `python` opens the Microsoft Store, ignore it — that's a Windows placeholder; `uv` brings its own Python.)
+   ```bash
+   # macOS
+   brew install uv
+
+   # Linux
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+   (Any method from the [uv install docs](https://docs.astral.sh/uv/getting-started/installation/) works.)
+
+> ⚠️ Open a *new* terminal after installing — already-open ones won't see `uv`. **Windows:** if typing `python` opens the Microsoft Store, ignore it — that's a placeholder, not a Python install; `uv` brings its own Python.
 
 ### 6.2 Set up the package you'll work on
 
