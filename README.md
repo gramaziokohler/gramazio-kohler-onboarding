@@ -195,51 +195,39 @@ To get started:
 
 ## 🐍 6. Coding
 
-The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). The whole setup below takes about 10 minutes — but you may not need all of it:
-
-| You will mostly… | You need |
-| --- | --- |
-| Work in Rhino / Grasshopper | [§6.3](#63-compas-in-rhino-8) only — no terminal setup at all |
-| Write your own scripts & projects using COMPAS | [§6.1](#61-install-the-tools) + [§6.2](#62-hello-compas) |
-| Develop one of the group's packages | [§6.1](#61-install-the-tools) + [§6.2](#62-hello-compas) + [§6.4](#64-working-on-a-group-package) |
+The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). As a new member you'll most likely collaborate on one of the group's COMPAS packages — the walkthrough below uses `compas_timber` as the example. It takes about 10 minutes.
 
 ### 6.1 Install the tools
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Install a code editor or IDE — [VS Code](https://code.visualstudio.com/) is the common choice.
-3. Install a Python virtual environment manager, like **`uv`** (used in the steps below) or **`conda`**. One virtual environment per project is the norm, which is the default for `uv`.
+3. Install [uv](https://docs.astral.sh/uv/), the Python environment manager used below:
 
    ```powershell
    winget install astral-sh.uv
    ```
 
-> ⚠️ **Windows:** terminals that were already open won't see freshly installed commands — open a new terminal before continuing. And if typing `python` opens the Microsoft Store, that's a Windows placeholder, not a Python install; ignore it — `uv` brings its own Python.
+> ⚠️ **Windows:** open a *new* terminal after installing — already-open ones won't see `uv`. (And if typing `python` opens the Microsoft Store, ignore it — that's a Windows placeholder; `uv` brings its own Python.)
 
-### 6.2 Hello COMPAS
-
-In a new project folder:
+### 6.2 Set up the package you'll work on
 
 ```powershell
-uv venv
-uv pip install compas
+git clone https://github.com/gramaziokohler/compas_timber.git
+cd compas_timber
+uv sync --extra dev
+uv run pytest
 ```
 
-This installs the released COMPAS from [PyPI](https://pypi.org/project/compas/), the public Python package registry (Python's equivalent of npm) — `uv` downloads a current CPython and the COMPAS wheels in about 10 seconds. Two things that surprise pip/conda users:
+Green tests = you're ready to work. What just happened:
 
-- **No activation step** — `uv pip install` and `uv run` automatically use the `.venv` in the current folder. You'll also see `.venv\Scripts\activate` in group material (e.g. the FAB workshop); that's the same environment — activating just lets you type `python` instead of `uv run python`.
-- **No local COMPAS source needed** — you build *on top of* the released package; cloning source is only for changing a package's own code ([§6.4](#64-working-on-a-group-package)).
+- `uv sync` created a virtual environment (`.venv`) and installed everything from the repo's lock file: **compas_timber editable** — your local edits are live, play with it freely — and its dependencies, **including `compas` itself, as pinned releases from PyPI** (the public Python package registry). You don't need a local copy of COMPAS core to work on a package built on it.
+- There is no `activate` step: `uv run <command>` uses the project's `.venv` automatically. (Activating it with `.venv\Scripts\activate`, as some group material does, is equivalent.)
 
-Verify it works:
+As a group member you have write access: clone directly and work on branches, as above — the *fork* workflow in `CONTRIBUTING.md` is for external contributors. Test with `uv run pytest` (`invoke test` is equivalent in a terminal, but can hang in automated environments — a known upstream issue).
 
-```powershell
-uv run python -c "from compas.geometry import Box; from compas.datastructures import Mesh; m = Mesh.from_shape(Box(1)); print('COMPAS OK:', m.number_of_vertices(), 'vertices')"
-```
+### 6.3 See it in Rhino
 
-Expected output: `COMPAS OK: 8 vertices`
-
-### 6.3 COMPAS in Rhino 8
-
-Rhino 8 ships its **own** CPython (3.9), separate from any environment on your machine. Nothing to install: a `# r:` requirement comment at the top of a script auto-installs packages into Rhino's Python. Type `ScriptEditor` in Rhino, create a new **Python 3** script (File → New → Python 3 — not IronPython 2), paste, and run:
+Rhino 8 ships its **own** CPython (3.9), separate from the environment you just created — a package "installed" in one says nothing about the other. Nothing to install: a `# r:` comment at the top of a script auto-installs packages into Rhino's Python. In Rhino: `ScriptEditor` → File → New → **Python 3** → paste and run:
 
 ```python
 # r: compas
@@ -251,34 +239,16 @@ scene.add(Box(1))
 scene.draw()
 ```
 
-A box appears in the viewport. Note that you now have **two Pythons** — Rhino's (3.9) and your dev environment's — so a package being "installed" in one says nothing about the other. Details: [COMPAS in Rhino 8](https://compas.dev/compas/latest/userguide/cad.rhino8.html).
+A box appears in the viewport. Details: [COMPAS in Rhino 8](https://compas.dev/compas/latest/userguide/cad.rhino8.html). For Grasshopper, packages with GH components (compas_timber included) also install code-free via Rhino's `PackageManager` (Yak) — note the published version can lag behind GitHub.
 
-### 6.4 Working on a group package
-
-The development setup for the group's COMPAS packages is uniform (example: `compas_timber`):
-
-```powershell
-git clone https://github.com/gramaziokohler/compas_timber.git
-cd compas_timber
-uv sync --extra dev
-uv run pytest
-```
-
-Green tests = working dev environment. The rule of thumb: **the package you work on is installed editable** (your local edits are live, break it freely) **while its dependencies — including `compas` itself — stay pinned releases from PyPI.** You never need a local editable COMPAS core to develop a package built on it.
-
-Two notes on the repos' `CONTRIBUTING.md`:
-
-- It says *fork the repository* — that's the workflow for **external** contributors. As a group member you have write access: clone the repo directly (as above) and work on branches.
-- It uses `invoke test` as the test command — equivalent to `uv run pytest` in a normal terminal. (In automated, non-interactive environments `invoke test` can hang after the tests pass — a known upstream `invoke` issue — which is why this guide shows `pytest` directly.)
-
-### 6.5 Resources & guidelines
+### 6.4 Resources & guidelines
 
 - Bookmark the COMPAS resources:
   - [COMPAS documentation](https://compas.dev/index.html)
   - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
   - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
 
-  > **Heads-up:** the official COMPAS docs still recommend **conda** (`conda create -n research -c conda-forge compas`) and don't mention uv. Both work — that command is equivalent to §6.2 — so don't let the difference throw you. The FAB workshop uses uv, with an activated venv (see §6.2).
+  > **Heads-up:** the official COMPAS docs still recommend **conda** and don't mention uv. Both work (`conda create -n research -c conda-forge compas` ≈ `uv venv` + `uv pip install compas`) — don't let the difference throw you. The FAB workshop uses uv, with an activated venv (see §6.2).
 
 - Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
@@ -339,8 +309,8 @@ Two notes on the repos' `CONTRIBUTING.md`:
 
 **Coding**
 
-- [ ] Dev environment: git, VS Code, Python (uv/conda), COMPAS
-- [ ] "Hello COMPAS" runs — headless (§6.2) and in Rhino 8 (§6.3)
+- [ ] Dev environment: git, VS Code, uv
+- [ ] Your package's tests pass locally (§6.2); COMPAS box drawn in Rhino 8 (§6.3)
 - [ ] Coding guidelines intro with Gonzalo Casas / Chen Kasirer
 
 **Settling in**
