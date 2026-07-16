@@ -203,7 +203,9 @@ The group's computational stack is Python-centric and built around [COMPAS](http
    ```bash
    # macOS
    brew install uv
+   ```
 
+   ```bash
    # Linux
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
@@ -230,7 +232,9 @@ As a group member you have write access: clone directly and work on branches, as
 
 ### 6.3 See it in Rhino
 
-Rhino 8 ships its **own** CPython (3.9), separate from the environment you just created — a package "installed" in one says nothing about the other. Nothing to install: a `# r:` comment at the top of a script auto-installs packages into Rhino's Python. In Rhino: `ScriptEditor` → File → New → **Python 3** → paste and run:
+Rhino 8 ships its **own** CPython (3.9), separate from the environment you just created — a package "installed" in one says nothing about the other. Nothing to install: a `# r:` comment at the top of a script auto-installs packages into Rhino's Python.
+
+In Rhino: `ScriptEditor` → File → New → **Python 3** → paste and run:
 
 ```python
 # r: compas
