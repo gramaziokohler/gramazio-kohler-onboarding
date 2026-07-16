@@ -2,11 +2,11 @@
 
 A practical onboarding guide for **Gramazio Kohler Research**, ETH Zürich — accounts, tools, people, and the gotchas the official docs miss.
 
-> Community-maintained — please keep it current for the next person.
+> Community-maintained — please keep it current.
 
 ## 📋 Prerequisites
 
-This guide assumes you have already received the following from ETH:
+Before you begin, ETH should have provided:
 
 | Item | Details |
 | --- | --- |
@@ -15,15 +15,22 @@ This guide assumes you have already received the following from ETH:
 | **Global password** | Used for email, network drives, Google/Microsoft logins, etc. |
 | **Network password** | Separate password used **only** for Wi-Fi / VPN / eduroam |
 
-> **Both email addresses point to the same inbox/account.** You do not manage two separate mailboxes.
+> **Both email addresses point to the same mailbox.**
 
 Every service signs you in as `<username>@ethz.ch` with your **global password**, except **Wi-Fi (eduroam) and VPN**, which use a role-dependent login and your **network password** (see [Wi-Fi](#31-wi-fi)).
 
-## 👋 1. First day at the office
+## 👋 1. First day
 
-Day one is light: get a **tour of the office** and get to know the **food & coffee options** on campus (below). Your onboarding is coordinated by **Petrus Aejmelaeus-Lindström** (welcome session and introduction to the organization), with **Tanja Fehr** (employment & admin), **Matthias Helmreich** (computer & IT setup), and **Alessandra Gabaglio** (communications & documentation).
+Your onboarding is coordinated by:
 
-### Food & coffee on campus
+- **Petrus Aejmelaeus-Lindström** — welcome & organization
+- **Tanja Fehr** — employment & administration
+- **Matthias Helmreich** — IT & hardware
+- **Alessandra Gabaglio** — communications & documentation
+
+You'll also get an office tour and an introduction to the campus food options.
+
+### Food & coffee
 
 _Hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
 
@@ -38,30 +45,22 @@ _Hours & menus shift each semester — see the [live page](https://ethz.ch/en/ca
   - **[Stefano-Franscini-Platz](https://maps.app.goo.gl/NMJCScv9bo2ssMJC7)** — coffee & snacks
   - **[Joseph-von-Deschwanden-Platz](https://maps.app.goo.gl/iFgtBzVB6viNLat5A)** — hot meals
 
-Vendors rotate each semester, so the grid below is only a snapshot — check **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** for the current line-up.
-
-| Day | Stefano-Franscini-Platz | Joseph-von-Deschwanden-Platz |
-| --- | --- | --- |
-| **Mon** | Bar Caffetteria Otter | Caribbean Flair |
-| **Tue** | Petit Frère + Äss-Bar | Ada Lokma (Anatolian) + Bra-Bro-Gourmet (burgers) |
-| **Wed** | Miró Coffee + Äss-Bar | Wesley's Kitchen (Asian/momos) |
-| **Thu** | Il Macchinista + Äss-Bar | Memo Food (kebab) + FAINO (Ukrainian) |
-| **Fri** | Mate's Coffee + Äss-Bar | Mundo Del Gusto (burgers) |
+Vendors rotate each semester — check **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)**.
 
 ## 🖥️ 2. Hardware
 
-The group provides your workstation, set up by the group's **IT specialist, Matthias Helmreich** (your first contact for computer setup and IT questions). When yours is being arranged, confirm you get:
+**Matthias Helmreich** will prepare your workstation. Check that you receive:
 
 - Laptop
 - Screen
-- Keyboard — check which layout you want (**US / DE / CH**)
+- Keyboard — check which layout you want (US / DE / CH)
 - Mouse
 
 ## 🔌 3. Getting connected
 
 ### 3.1 Wi-Fi
 
-Two things trip people up here: your username isn't any of your email addresses, and your password isn't your global password.
+Your username isn't one of your email addresses, and your password isn't your global password.
 
 **Network** &nbsp;·&nbsp; `eduroam`
 
@@ -73,22 +72,19 @@ Two things trip people up here: your username isn't any of your email addresses,
 | Student — incl. **PhD students** | `<username>@student-net.ethz.ch` |
 | Visitor | `<username>@eth-visitors.ethz.ch` |
 
-**Password** &nbsp;·&nbsp; your **network password** (Radius / Wi-Fi / VPN password). Set or reset it at <https://password.ethz.ch>.
+**Password** &nbsp;·&nbsp; your **network password**
+
+Set or reset it at <https://password.ethz.ch>.
 
 On Linux and Android, eduroam needs extra configuration: [Wi-Fi (Linux and Android)](https://unlimited.ethz.ch/en/help/network/manuals-and-documentation/manuals-wlan-wifi/wifi-linux-and-android).
-
-ETH also runs an `eth-iot` network for devices that can't join eduroam.
-
-More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
 ### 3.2 Email & Calendar
 
 **Outlook** is the recommended email client, it keeps you aligned with the rest of the team. You can use another client if you prefer, but Outlook is the smoothest path.
 
 1. Go to <https://outlook.office.com/mail/>.
-2. Enter your `@ethz.ch` email.
-3. Sign in with your **global password**.
-4. Add the shared calendar `itaevent@ethz.ch` to see the events happening around the building.
+2. Sign in with your **`@ethz.ch`** account.
+3. Add the shared calendar `itaevent@ethz.ch` to see the events happening around the building.
 
 ### 3.3 Network drives (GKR Server)
 
@@ -100,11 +96,7 @@ Once you're connected via eduroam, you can reach the GKR Server:
 \\nas22.ethz.ch\arch_ita_gramazio_kohler
 ```
 
-**Detailed setup (Windows):**
-
-> ⚠️ **The first connection may be slow and silent** — No feedback for ~2 minutes.
-
-Map it as a network drive so it stays available and reconnects at sign-in.
+**Map it as a network drive:**
 
 <img src="./map-network-drive-1.jpg" alt="This PC context menu with Map network drive highlighted" width="550" />
 
@@ -121,15 +113,15 @@ _Fill in the dialog:_
 
 <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="400" />
 
-_Enter your global email and password._
+> ⚠️ **The first connection may be slow** — No feedback for ~2 minutes.
 
 ### 3.4 VPN
 
 Needed to reach some internal services from outside the campus network.
 
-- **Setup** &nbsp;·&nbsp; ETH VPN service page: <https://unlimited.ethz.ch/en/help/network/vpn>
-- **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#31-wi-fi) (e.g. `<username>@student-net.ethz.ch`)
-- **Password** &nbsp;·&nbsp; your **network password**
+- **Setup** &nbsp;·&nbsp; <https://unlimited.ethz.ch/en/help/network/vpn>
+- **Username** &nbsp;·&nbsp; same as [Wi-Fi](#31-wi-fi) (e.g. `<username>@student-net.ethz.ch`)
+- **Password** &nbsp;·&nbsp; **network password**
 
 ## 🧰 4. Software ecosystem
 
@@ -149,20 +141,20 @@ Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.4 Google Workspace
 
-1. Follow **"Google Workspace — Getting a License"**: <https://unlimited.ethz.ch/en/help/googlews/getting-started/first-steps>
-2. Approval takes about **10 minutes**.
-3. Once approved, log in to Google services with your `@ethz.ch` email and **global password**.
+1. Follow [Google Workspace — Getting a License](https://unlimited.ethz.ch/en/help/googlews/getting-started/first-steps)
+2. Wait about **10 minutes**.
+3. Log in to Google services with your `@ethz.ch` email and **global password**.
 4. Ask the team to add you to the **shared project drives**.
 
 ### 4.5 Microsoft 365
 
-1. Follow **"Requesting an M365 License"**: <https://unlimited.ethz.ch/en/help/m365/getting-started/m365-first-steps>
-2. Approval takes about **5 minutes**.
-3. Once approved, you can log in to **Teams** with your `@ethz.ch` email and **global password**.
+1. Follow [Requesting an M365 License](https://unlimited.ethz.ch/en/help/m365/getting-started/m365-first-steps).
+2. Wait about **5 minutes**.
+3. Log in to **Teams** with your `@ethz.ch` email and **global password**.
 
 ### 4.6 Rhino
 
-Non-ETH software licenses (Rhino, Autodesk, etc.) are handled by the group's **IT specialist, Matthias Helmreich** — ask him or your supervisor to get you set up.
+Non-ETH software licenses (Rhino, Autodesk, etc.) are handled by **Matthias Helmreich**. Ask him or your supervisor to get you set up.
 
 ### 4.7 Other tools
 
@@ -275,19 +267,18 @@ A box appears in the viewport. Details: [COMPAS in Rhino 8](https://compas.dev/c
 - Weekly cross section
 - COMPAS dev meeting (bi-weekly)
 
-## 🔑 8. Building access & trainings
+## 🔑 8. Building access & training
 
-- **HIB** After hours access — To access the building after hours you need your card and a password that you set [here](https://ethis.ethz.ch/sap/bc/ui2/flp?#ZHR_ESS_pin-change). 
-- **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator, Matthias Helmreich** (responsible for RFL on the GKR side), who is the first contact for anything RFL-related.
+- **HIB** After-hours access — For after-hours building access you need your card and a password that you set [here](https://ethis.ethz.ch/sap/bc/ui2/flp?#ZHR_ESS_pin-change). 
+- **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **Matthias Helmreich**, who is the first contact for anything RFL-related.
   - Working with concrete? The **RFL concrete lab** has its own instruction, given by the concrete lab leader, **Jonathan Leu**.
-- **IDL** (Immersive Design Lab) — request access and training to Fabio Scotto (scotto@arch.ethz.ch)
+- **IDL** (Immersive Design Lab) — request access and training to **Fabio Scotto**.
 
 ## 🎟️ 9. Admin & perks
 
 - **Absences** (holidays, sick leave, etc.) are recorded in **two** places: **ETHIS** (ETH's administration portal) *and* the **GKR database** (under ADMIN → FERIEN). Also inform the your responsible postdoc and your project team. The office manual only requires recording absences — not daily presence. Some contracts require to record presence as well, check with Tanja.
 - **Halbtax** — SBB half-fare travelcard; request it through Tanja. Details on the [ETH travel page](https://ethz.ch/staffnet/de/finanzen-und-controlling/reisen.html).
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
-  > _TODO: list which groups a new member needs and who can add them._
 
 ## 📖 10. Reading
 
