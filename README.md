@@ -115,6 +115,8 @@ _Fill in the dialog:_
 
 > ⚠️ **The first connection may be slow** — No feedback for ~2 minutes.
 
+Enter your global email and password.
+
 ### 3.4 VPN
 
 Needed to reach some internal services from outside the campus network.
