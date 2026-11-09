@@ -342,13 +342,13 @@ First contacts by topic.
 | Where | Role | People |
 | --- | --- | --- |
 | **GKR** | Admin, finance & HR | Tanja (fehr@arch.ethz.ch) |
-| **GKR** | Postdocs | Oliver (bucklin@arch.ethz.ch), Lauren (vasey@arch.ethz.ch), Petrus (apetrus@arch.ethz.ch), Inés (ariza@arch.ethz.ch), Anja (akunic@ethz.ch) |
-| **GKR** | IT, hardware, infrastructure & RFL | Matthias Helmreich |
+| **GKR** | Postdocs | Oliver (bucklin@arch.ethz.ch), Inés (ariza@arch.ethz.ch), Anja (akunic@ethz.ch) |
+| **GKR** | IT, hardware, infrastructure & RFL | Matthias Helmreich (helmreich@arch.ethz.ch) |
 | **GKR** | GitHub & software | Gonzalo (casas@arch.ethz.ch) |
 | **GKR** | PR, communication, website & database | Alessandra (gabaglio@arch.ethz.ch) |
 | **GKR** | MAS / teaching | Petrus (apetrus@arch.ethz.ch) |
 | **NCCR** | Management | Russell (loveridge@dfab.ch), Kaitlin (mcnally@dfab.ch), Blanca (hren@dfab.ch) |
 | **NCCR** | Budget & expenses | Tanja (fehr@arch.ethz.ch), Blanca (hren@dfab.ch) |
 | **NCCR** | Software ecosystem | Tom (van.mele@arch.ethz.ch), Chen (kasirer@arch.ethz.ch), Gonzalo (casas@arch.ethz.ch) |
-| **RFL** | Lab team | Michael "Mike" Lyrenmann (director), Philippe Fleischmann, Luca Petrus, Jonathan Leu (concrete lab) |
+| **RFL** | Lab team | Michael "Mike" Lyrenmann (lyrenmann@arch.ethz.ch), Philippe Fleischmann, Luca Petrus, Jonathan Leu (concrete lab) |
 | **ITA** | Coordinator, RQEs | _TODO_ |
